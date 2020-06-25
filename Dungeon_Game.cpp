@@ -3,6 +3,7 @@ public:
     int calculateMinimumHP(vector<vector<int>>& dungeon) {
         int m = dungeon.size();
         int n = dungeon[0].size();
+	    
         vector<vector<int>> result(m, vector<int>(n, INT_MAX));
         
         for(int i= m-1 ;i >= 0 ;i--) // starting from destination itself.
