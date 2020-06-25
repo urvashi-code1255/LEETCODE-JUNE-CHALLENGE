@@ -12,7 +12,7 @@ public:
             if(citations[mid]<n-mid) 
                 left=mid+1;
             else 
-			    right=mid-1;
+                right=mid-1;
         }
         return n-left;
     }
