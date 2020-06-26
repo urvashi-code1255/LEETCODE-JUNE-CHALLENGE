@@ -13,7 +13,7 @@ public:
                 if(i==m-1 && j==n-1) // at princess's cell or bottom right cell.
                 {
                     // if princess cell has negative value then night should have 1 more then that absolute of                          
-					//negative value otherwise 1.
+	            //negative value otherwise 1.
                     result[i][j] = (dungeon[i][j] <=0)? (abs(dungeon[i][j])+1) : 1 ; 
                     continue;
                 }
