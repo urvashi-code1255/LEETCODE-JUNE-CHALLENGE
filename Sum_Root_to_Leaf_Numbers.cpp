@@ -5,6 +5,7 @@ public:
     {
         if(!root)
             return 0 ;
+        
         num = num*10 + root->val ;
         
         if(!root->left && !root->right)
