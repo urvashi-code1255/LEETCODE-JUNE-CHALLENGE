@@ -2,7 +2,7 @@ class Solution {
 public:
     int hIndex(vector<int>& citations) 
     {
-        int n=citations.size(); // size of array
+        int n=citations.size();   // size of array
         int left=0,right=n-1;     //applying binary search
         
         while(left<=right)
@@ -12,7 +12,7 @@ public:
             if(citations[mid]<n-mid) 
                 left=mid+1;
             else 
-			    right=mid-1;
+                right=mid-1;
         }
         return n-left;
     }

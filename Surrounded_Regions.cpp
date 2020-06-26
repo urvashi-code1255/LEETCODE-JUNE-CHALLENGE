@@ -1,10 +1,12 @@
 class Solution {
 public:
-    void DFS(vector<vector<char>>& board, int i, int j, int m, int n) {
+    void DFS(vector<vector<char>>& board, int i, int j, int m, int n) 
+    {
         if(i<0 or j<0 or i>=m or j>=n or board[i][j] != 'O') 
             return;
         
         board[i][j] = '#';
+        
         DFS(board, i-1, j, m, n);
         DFS(board, i+1, j, m, n);
         DFS(board, i, j-1, m, n);

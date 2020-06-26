@@ -1,11 +1,12 @@
 class Solution {
 public:
-    string getPermutation(int n, int k) {
+    string getPermutation(int n, int k) 
+    {
         string s="";
         
         for(int i=1;i<=n;i++)
             s += to_string(i);
-           // s += (i+'0');  both ways are correct.
+            // s += (i+'0');  both ways are correct.
         
         for(int i=1;i<k;i++)
             next_permutation(s.begin(),s.end());
