@@ -13,7 +13,7 @@ public:
             a[i][m-1] = 1;
         
         //the number of unique paths at a certain cell is equal to the number of unique paths in the cell to the           
-		//right of it plus the number in the cell below it. Hence, we loop through each row and do the addition
+        //right of it plus the number in the cell below it. Hence, we loop through each row and do the addition
         for(int i = n - 2; i >= 0; i--) { 
             for(int j = m - 2;j >= 0; j--) {
                 a[i][j] = a[i+1][j] + a[i][j+1];
