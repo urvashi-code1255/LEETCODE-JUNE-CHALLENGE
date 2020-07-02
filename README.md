@@ -1,2 +1,3 @@
-# Leetcode-30-days-Challenge
-This repository contains solutions of leetcode 30 days challenge
+# LEETCODE-JUNE-CHALLENGE
+
+This repository contains solutions of leetcode june 30 days challenge
