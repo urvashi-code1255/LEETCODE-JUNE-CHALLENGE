@@ -8,13 +8,12 @@ public:
     /* as to form a triangle the pattern will be : *
                                                    *  *
                                                    *  *  *
-      which means no of coins in row-0 = 1 , row-1 = 2 , row-2 = 3 ....
+      which means no of coins in row0 = 1 , row1 = 2 , row2 = 3 ....
       
       1
       2
       3
       4
-      .
       .
       .
       .

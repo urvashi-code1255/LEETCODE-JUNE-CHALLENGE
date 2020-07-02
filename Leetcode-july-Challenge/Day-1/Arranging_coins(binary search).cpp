@@ -1,4 +1,4 @@
- class Solution {
+class Solution {
 public:
     int arrangeCoins(int n) 
     {
@@ -15,15 +15,11 @@ public:
             else if (temp < n)
             {
                 res = mid;
-                start = mid + 1;
-                
+                start = mid + 1 ;  
             }
-            
             else
                 end = mid - 1;
         }
         return res;
     }
-    
-    
 };
